@@ -13,6 +13,13 @@
         }
     },
     "extract_dir": "PixPin",
+    "persist": [
+        "History",
+        "Config",
+        "Data",
+        "pixpin.log",
+        "LocalStorage.data"
+    ]
     "shortcuts": [
         [
             "PixPin.exe",
