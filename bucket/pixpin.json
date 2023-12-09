@@ -12,7 +12,7 @@
             "hash": "237a28da4effc86a6e4d8497f6fd31b76d6048aed3ef5850c70b728315fbbbc8"
         }
     },
-    "post_install": "Move-Item \"$dir\\PixPin\\*\" \"$dir\"; Remove-Item \"$dir\\PixPin\"",
+    "extract_dir": "PixPin",
     "shortcuts": [
         [
             "PixPin.exe",
