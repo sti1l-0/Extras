@@ -13,8 +13,8 @@
         }
     },
     "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\pixpin.log\")) { New-Item \"$dir\\pixpin.log\" -ItemType Directory | Out-Null }",
-        "if (!(Test-Path \"$persist_dir\\LocalStorage.data\")) { New-Item \"$dir\\LocalStorage.data\" -ItemType File | Out-Null }"
+        "if (!(Test-Path \"$dir\\pixpin.log\")) { New-Item \"$dir\\pixpin.log\" -ItemType Directory | Out-Null }",
+        "if (!(Test-Path \"$dir\\LocalStorage.data\")) { New-Item \"$dir\\LocalStorage.data\" -ItemType File | Out-Null }"
     ],
     "extract_dir": "PixPin",
     "persist": [
