@@ -1,0 +1,40 @@
+{
+    "version": "1.0.9.1",
+    "description": "A full-featured screen capture tool",
+    "homepage": "https://pixpinapp.com/",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://pixpinapp.com/"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.pixpinapp.com/PixPin_1.0.9.1.exe#/dl.7z",
+            "hash": "7b48058e063808504f3b6c0f08cd13781f6b97db4cf72925122a185e6df72f0d",
+            "installer": {
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            }
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse",
+    "shortcuts": [
+        [
+            "PixPin.exe",
+            "PixPin"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$url = 'https://pixpinapp.com/'",
+            "$req = Invoke-WebRequest -Uri $url -MaximumRedirection 0 -ErrorAction SilentlyContinue",
+            "Write-Output $req.Headers.Location"
+        ],
+        "regex": "https://download.pixpinapp.com/PixPin_[\d\.]+.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.pixpinapp.com/PixPin_$version.exe#/dl.7z"
+            }
+        }
+    }
+}
