@@ -11,7 +11,7 @@
             "url": "https://download.pixpinapp.com/PixPin_1.0.9.1.exe#/dl.7z",
             "hash": "7b48058e063808504f3b6c0f08cd13781f6b97db4cf72925122a185e6df72f0d",
             "installer": {
-                "file"
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
             }
         }
     },
@@ -29,9 +29,6 @@
             "Write-Output $req.Headers.Location"
         ],
         "regex": "https://download.pixpinapp.com/PixPin_[\\d\\.]+.exe"
-    },
-    "uninstaller":{
-        "file": "unins000.exe"
     },
     "autoupdate": {
         "architecture": {
