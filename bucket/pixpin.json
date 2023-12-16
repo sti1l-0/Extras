@@ -31,7 +31,7 @@
         ]
     ],
     "checkver": {
-        "url": "'https://pixpinapp.com/",
+        "url": "https://pixpinapp.com/",
         "regex": "download.pixpinapp.com/PixPin_([\\d\\.]+).exe"
     },
     "autoupdate": {
