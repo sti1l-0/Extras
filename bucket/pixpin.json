@@ -31,12 +31,8 @@
         ]
     ],
     "checkver": {
-        "script": [
-            "$url = 'https://pixpinapp.com/'",
-            "$req = Invoke-WebRequest -Uri $url -MaximumRedirection 0 -ErrorAction SilentlyContinue",
-            "Write-Output $req.Headers.Location"
-        ],
-        "regex": "https://download.pixpinapp.com/PixPin_[\\d\\.]+.exe"
+        "url": "'https://pixpinapp.com/",
+        "regex": "download.pixpinapp.com/PixPin_([\\d\\.]+).exe"
     },
     "autoupdate": {
         "architecture": {
