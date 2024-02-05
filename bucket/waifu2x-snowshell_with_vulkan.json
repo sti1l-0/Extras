@@ -13,7 +13,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/YukihoAA/waifu2x_snowshell/releases/download/v2.6.1/waifu2x-snowshell_v2.6.1_with_vulkan.zip",
-            "hash": "33b90a7c0c97ac7a727d7743f0160e1e1a2e2b00b8819816522aceadf9d5a9cc"
+            "hash": "07ac089188c9ee2ae0f0f212ae9516ea40fdcab50ebf08d9d6e311e12d166a5d"
         }
     },
     "pre_install": [
