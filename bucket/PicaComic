@@ -1,0 +1,26 @@
+{
+    "version": "3.14",
+    "homepage": "https://github.com/wgh136/PicaComic",
+    "description": "A comic app built with Flutter, supporting multiple comic sources.",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Blinue/Magpie/releases/download/v0.11.1/Magpie-v0.11.1-x64.zip",
+            "hash": "7fe47f219424c1263b0cea39a95c4b6885b01a6ba30d77f6ee5e91085563471e"
+        }
+    },
+    "shortcuts": [
+        [
+            "pica_comic.exe",
+            "PicaComic"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wgh136/PicaComic/releases/download/v$version/PicaComic-3.1.4-windows.zip"
+            }
+        }
+    }
+}
