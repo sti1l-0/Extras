@@ -1,5 +1,5 @@
 {
-    "version": "3.14",
+    "version": "3.1.4",
     "homepage": "https://github.com/wgh136/PicaComic",
     "description": "A comic app built with Flutter, supporting multiple comic sources.",
     "license": "MIT",
