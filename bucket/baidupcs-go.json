@@ -12,7 +12,9 @@
             "hash": "9e94f7c14ca795280d52966fcc9bf1920dc6967c6c7cacf0ce6c882834a7564a"
         }
     },
-    "extract_dir": "BaiduPCS-Go-v$version-windows-x64.zip",
+    "pre_install": [
+        "Move-Item -Path $dir\\BaiduPCS-Go-v$version-windows-x64\\* -Destination $dir\\; Remove-Item -Path $dir\\BaiduPCS-Go-v$version-windows-x64 -Recurse -Force"
+    ],
     "shortcuts": [
         [
             "BaiduPCS-Go.exe",
