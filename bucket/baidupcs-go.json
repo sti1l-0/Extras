@@ -15,6 +15,9 @@
     "pre_install": [
         "Move-Item -Path $dir\\BaiduPCS-Go-v$version-windows-x64\\* -Destination $dir\\; Remove-Item -Path $dir\\BaiduPCS-Go-v$version-windows-x64 -Recurse -Force"
     ],
+    "bin": [
+        "BaiduPCS-Go.exe"
+    ],
     "shortcuts": [
         [
             "BaiduPCS-Go.exe",
