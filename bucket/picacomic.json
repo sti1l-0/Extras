@@ -1,12 +1,12 @@
 {
-    "version": "3.1.4",
+    "version": "4.0.0",
     "homepage": "https://github.com/wgh136/PicaComic",
     "description": "A comic app built with Flutter, supporting multiple comic sources.",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wgh136/PicaComic/releases/download/v3.1.4/PicaComic-3.1.4-windows.zip",
-            "hash": "7fe47f219424c1263b0cea39a95c4b6885b01a6ba30d77f6ee5e91085563471e"
+            "url": "https://github.com/wgh136/PicaComic/releases/download/v4.0.0/PicaComic-4.0.0-windows.zip",
+            "hash": "823110bc03b17a35e495facb1d54b1ba34c9d19bd6a54e0db6b6acbaec84bd79"
         }
     },
     "shortcuts": [
