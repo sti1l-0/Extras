@@ -1,5 +1,5 @@
 {
-    "version": "1.8.22.0",
+    "version": "1.9.5.0",
     "description": "A full-featured screen capture tool",
     "homepage": "https://pixpinapp.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.pixpinapp.com/PixPin_1.8.22.0.zip",
-            "hash": "a9c0442c944cbaab31a980ff50cbd85544283b352081d8d5a66f3dfea3ee838b"
+            "url": "https://download.pixpinapp.com/PixPin_1.9.5.0.zip",
+            "hash": "2743f5e32a9acfd8d5e3b7a5e10c725ea21268b6fbc5c1f1ca167c7618d14007"
         }
     },
     "pre_install": [
