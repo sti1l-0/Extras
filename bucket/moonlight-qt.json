@@ -6,7 +6,7 @@
     "notes": "login with your account first.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qiin2333/moonlight-qt/releases/download/v6.1.1/MoonlightPortable-x64-6.1.1.DG.zip"
+            "url": "https://github.com/qiin2333/moonlight-qt/releases/download/v6.1.1/MoonlightPortable-x64-6.1.1.DG.zip",
             "hash": "0cfc32058b1e43cecbc40bb30197219282322af04772cfa6e6e80fe5d55966ab"
         }
     },
