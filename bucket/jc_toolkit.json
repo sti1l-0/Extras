@@ -14,13 +14,13 @@
     },
     "shortcuts": [
         [
-            "jctool_v5.2.0.exe",
+            "jctool.exe",
             "jctool"
         ]
     ],
     "checkver": {
         "github": "https://github.com/CTCaer/jc_toolkit",
-        "regex": "download/v([\\w.]+)/"
+        "regex": "download/([\\w.]+)/"
     },
     "autoupdate": {
         "architecture": {
