@@ -1,14 +1,14 @@
 {
     "version": "1.9.5.0",
     "description": "A full-featured screen capture tool",
-    "homepage": "https://pixpinapp.com/",
+    "homepage": "https://pixpinapp.cn/",
     "license": {
         "identifier": "Shareware",
-        "url": "https://pixpinapp.com/"
+        "url": "https://pixpinapp.cn/"
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.pixpinapp.com/PixPin_1.9.5.0.zip",
+            "url": "https://download.pixpinapp.cn/PixPin_1.9.5.0.zip",
             "hash": "2743f5e32a9acfd8d5e3b7a5e10c725ea21268b6fbc5c1f1ca167c7618d14007"
         }
     },
@@ -31,13 +31,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://pixpinapp.com/",
-        "regex": "download.pixpinapp.com/PixPin_([\\d\\.]+).exe"
+        "url": "https://pixpinapp.cn/",
+        "regex": "download.pixpinapp.cn/PixPin_([\\d\\.]+).exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.pixpinapp.com/PixPin_$version.zip"
+                "url": "https://download.pixpinapp.cn/PixPin_$version.zip"
             }
         }
     }
