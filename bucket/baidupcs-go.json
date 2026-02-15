@@ -1,13 +1,13 @@
 {
-    "version": "3.9.7",
+    "version": "4.0.0",
     "description": "iikira/BaiduPCS-Go原版基础上集成了分享链接/秒传链接转存功能",
     "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
     "license": "Apache-2.0 license",
     "notes": "login with your account first.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.7/BaiduPCS-Go-v3.9.7-windows-x64.zip",
-            "hash": "2c8f4728ac29153f71187a26c85d5be0e2419a64d591a74f821d3c57622eeb81"
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.0/BaiduPCS-Go-v4.0.0-windows-x64.zip",
+            "hash": "be4a285cf5edccef55ce25b7d53dbc34d703782f9bf713b2327d5a85f5993dd9"
         }
     },
     "pre_install": "Move-Item -Path $dir\\BaiduPCS-Go-v$version-windows-x64\\* -Destination $dir\\; Remove-Item -Path $dir\\BaiduPCS-Go-v$version-windows-x64 -Recurse -Force",
