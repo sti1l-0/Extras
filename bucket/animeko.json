@@ -1,9 +1,9 @@
 {
-    "version": "5.4.4",
+    "version": "5.5.1",
     "description": "一站式在线弹幕追番平台",
     "homepage": "https://github.com/open-ani/animeko/",
-    "url": "https://d.myani.org/v5.4.4/ani-5.4.4-windows-x86_64.zip",
-    "hash": "b73fa3ecacd75aa3281ffefaa24ee71c266224005f5381527c58ad9abc543ac7",
+    "url": "https://d.myani.org/v5.5.1/ani-5.5.1-windows-x86_64.zip",
+    "hash": "fd7d4b0527a863c3984cbc2fb41e2dd4f60c8c8145a6ab9ffb4e5bb69085159c",
     "extract_dir": "Ani",
     "bin": "Ani.exe",
     "shortcuts": [
