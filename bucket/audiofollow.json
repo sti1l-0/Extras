@@ -1,12 +1,12 @@
 {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "让应用的声音跟随窗口所在的屏幕（Windows 多显示器）",
     "homepage": "https://github.com/sti1l-0/audiofollow",
     "license": "MIT OR Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sti1l-0/audiofollow/releases/download/v0.1.2/audiofollow-v0.1.2-windows-x64.zip",
-            "hash": "593b63d4acfb63dbd021883ec34ff397835c397893edfa3792c2c5508c6524e8"
+            "url": "https://github.com/sti1l-0/audiofollow/releases/download/v0.1.3/audiofollow-v0.1.3-windows-x64.zip",
+            "hash": "d063123ec3ca6e53ab8d1d6ed945f703bac968ba7674b39ad9cbd966eec877d8"
         }
     },
     "shortcuts": [
