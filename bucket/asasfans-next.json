@@ -1,0 +1,29 @@
+{
+    "version": "3.1.6",
+    "description": "A-SOUL 粉丝的聚合客户端，提供动态、二创、音乐与日历。",
+    "homepage": "https://github.com/LEN5010/Asasfans-Next",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/LEN5010/Asasfans-Next/releases/download/v3.1.6/Asasfans-Next-v3.1.6-windows-x64.zip",
+            "hash": "09cb3a25be8b2f339e7af4c846ac60ee6ddb0af37320355edbe1a77c8f1b7c3c"
+        }
+    },
+    "shortcuts": [
+        [
+            "asasfans_next.exe",
+            "Asasfans Next"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/LEN5010/Asasfans-Next/releases/download/v$version/Asasfans-Next-v$version-windows-x64.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
